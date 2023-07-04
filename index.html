@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html class="html">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <meta http-equiv="X-UA-Compatible" content="ie-edge"/>
+        <meta name="theme-color" content="#000"/>
+        <meta name="keywords" content="Programmer aj singh,Aj Singh,arvinder, ARVINDERJEET SINGH, Frontend Developer"/>
+        <meta name="author" content="ARVINDERJEET SINGH"/>
+        <title>ARVINDERJEET SINGH</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+        <!-- meta -->
+
+
+  <link rel="mask-icon" href="ajo9.png" color="#000000">
+
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="ajo9.png">
+
+<link rel="icon" class="js-site-favicon" type="image/svg+xml" href="ajo9.png">
+
+        <style>
+        *{
+            outline:none;
+        }
+
+*, :after, :before{
+    box-sizing: border-box;
+}
+
+.html{
+    scroll-behavior: smooth;
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.body{
+    padding: 0;
+    margin: 0;
+    background: #000;
+}
+
+::selection{
+    color:#fff;
+    background: #00ffff;
+}
+.My_Projects{
+    position:fixed;
+    right:15px;
+    bottom:15px;
+    text-decoration:none;
+    z-index:5;
+
+
+}
+
+.My_Projects__link{
+  font-weight:600;
+    font-size:2em;
+    display:block;
+    height:47px;
+    background:#000000;
+    border-sizing:border-box ;
+    border:1px solid #505050;
+    padding:10px 10px;
+    border-radius:0.7em;
+    outline: 0;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    transition: color .3s;
+    color: #00ffff;
+    z-index:5;
+
+}
+.myiot{
+    font-weight:300;
+    font-size:1.2em;
+    background:#000000;
+    padding:auto;
+    border-radius:20px;
+    outline: 0;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    transition: color .3s;
+    color: #00ffff;
+    z-index:5;
+
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 120rem;
+    padding-top: 3rem;
+    min-height: 50vh;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2.4rem;
+}
+
+.col{
+    flex: 1 1;
+    padding-bottom: 1rem;
+}
+
+.title{
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.title__h2{
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.title__h3{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #d3d3d3;
+}
+
+/* ===========================
+    Masthead
+============================ */
+
+.masthead{
+    padding: 10rem 0;
+    position: relative;
+    width: 100%;
+    background: #545657;
+}
+
+.masthead-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.masthead-profile-bg{
+    padding: 5rem;
+    margin: 5rem;
+    width: 60%;
+    border-radius: 2rem;
+    display: flex;
+    border: .3rem solid#000;
+    box-shadow: 0px 2px 8px #000;
+    background: #050505;
+}
+
+.masthead-profile-content{
+    display: flex;
+
+}
+
+.masthead__image{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5rem;
+}
+
+.masthead-profile{
+    letter-spacing: 0.1rem;
+}
+
+.masthead__heading{
+    font-size: 3rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    background: -webkit-linear-gradient(-70deg,#a2facf,#64acff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.masthead-items{
+    margin-bottom: 15px;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+.masthead__link{
+    outline: 0;
+    text-decoration: none;
+    position: relative;
+    font-size: 1.125em;
+    padding-bottom: 4px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    transition: color .3s;
+    color: #d3d3d3;
+}
+
+.masthead__link:hover{
+    color: #fff;
+}
+
+.masthead__link:before, .masthead__link:after{
+    content: '';
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+}
+
+.masthead__link:before{
+    -webkit-transition: all 0.25s cubic-bezier(0.694, 0.048, 0.335, 1) 0.15s;
+    -moz-transition: all 0.25s cubic-bezier(0.694, 0.048, 0.335, 1) 0.15s;
+    transition: all 0.25s cubic-bezier(0.694, 0.048, 0.335, 1) 0.15s;
+    z-index: 1;
+}
+
+.masthead__link:after{
+    background: #00ffff;
+    -webkit-transition: all 0.25s cubic-bezier(0.694, 0.048, 0.335, 1);
+    -moz-transition: all 0.25s cubic-bezier(0.694, 0.048, 0.335, 1);
+    transition: all 0.25s cubic-bezier(0.694, 0.048, 0.335, 1);
+    z-index: 2;
+}
+
+.masthead__link:hover:before, .masthead__link:hover:after{
+    width: 100%;
+    left: 0;
+}
+
+.masthead__link--margin{
+    margin-left: 30px;
+}
+
+.masthead-wave{
+    width: 100%;
+     height: 20vh;
+     height: 16vh;
+    background: #545657;
+}
+
+/* ===========================
+    About
+============================ */
+
+.about-timeline{
+    padding-top: 1rem;
+    padding-right: 3rem;
+}
+
+.timeline-card{
+    position: relative;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    max-width: 30rem;
+    color: #d3d3d3;
+    border-radius: 2rem;
+    padding-bottom: 2rem;
+    background: #050505;
+    border: .2rem solid #181a1b;
+}
+
+.timeline-card:before{
+    content: "";
+    position: absolute;
+    top: -.5rem;
+    left: -3.6rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    z-index: 2;
+    background: #00ffff;
+}
+
+.timeline-card:after{
+    content: "";
+    position: absolute;
+    left: -3.3rem;
+    top: 0;
+    height: calc(100% + 2rem);
+    width: .4rem;
+    background-color: #181a1b;
+    border: .1rem solid #181a1b;
+}
+
+.timeline-card:last-of-type:after{
+    height: 100%;
+}
+
+.timeline-card-content{
+    padding: 1rem 2rem 1rem;
+    font-size: 1.4rem;
+    padding: 1rem 2rem 0rem;
+    line-height: 2rem;
+}
+
+.timeline-card-content--p{
+    padding: 0rem 2rem 0rem;
+}
+
+/* ===========================
+    Skills
+============================ */
+
+.skills-title{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.skill{
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    font-size: 1.25rem;
+    background: #050505;
+    border: .1rem solid #181a1b;
+    margin: .6rem .2rem;
+    color: #00ffff;
+}
+
+.skills-title--tech{
+    margin-top: 2rem;
+}
+
+/* ===========================
+    Proyect
+============================ */
+
+.projects{
+    position: relative;
+}
+
+.row--projects{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.col--project{
+    display: flex;
+    flex: 0 0 33.33332%;
+    justify-content: center;
+}
+
+.project-card{
+    position: relative;
+    display: inline-block;
+    margin: 1rem 1rem 2rem;
+    width: 27rem;
+    height: 32rem;
+    background: #050505;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    border: .2rem solid #181a1b;
+    box-shadow: 0px 4px 8px #050505;
+}
+
+.project-card:hover{
+    transition: all 0.4s ease-out;
+    top: -4px;
+    border: .2rem solid #181a1b;
+    box-shadow: 0px 4px 8px rgba(55,214,255,1);
+}
+
+.project-card-content{
+    padding: 1rem;
+}
+
+.project-card-cover{
+    height: 5rem;
+    text-align: right;
+    line-height: 8.6rem;
+}
+
+.project__icon{
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+    margin-left: 1.2rem;
+    color: #f3f3f3;
+    opacity: .8;
+}
+
+.project__icon:hover{
+    color: #00ffff;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.title__h3--project{
+    color: #fff;
+    margin-top: 2.8rem;
+}
+
+.project-card-p{
+    font-size: 1.4rem;
+    margin-top: 1.3rem;
+    margin-left: 0;
+    color: #d3d3d3;
+    line-height: 2rem;
+}
+
+.skills-content--project{
+     margin: 1.2rem 0;
+}
+
+.skill--project{
+    margin: 0 .2rem .2rem;
+    border: none;
+    background: none;
+    color: #f3f3f3;
+    opacity: .8;
+}
+
+/* ===========================
+    Footer
+============================ */
+
+.footer{
+    width: 100%;
+    padding: 8% 0;
+    text-align: center;
+    background:#000;
+}
+
+.footer__copy{
+      color: #f3f3f3;
+      opacity: .8;
+      font-size: 1.5em;
+}
+
+.project__icon--link{
+    margin-left: 0;
+    opacity:1;
+}
+
+.iot{
+  font-weight:900;
+    font-size:2em;
+    height:47px;
+    display:block;
+    background:#000000;
+    z-index:1;
+    border:1px solid #505050;
+    padding:10px 10px 10px 10px;
+    border-radius:0.7em;
+    outline: 0;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    color: #00ffff;
+    z-index:5;
+    position:fixed;
+    left: 15px;
+    bottom:15px;
+    text-decoration:none;
+    z-index:5;
+}
+/*
+.project__icon--link{
+
+}
+
+.project__icon--link:hover{
+    color: #f3f3f3;
+    opacity: .8;
+}
+
+/* ===========================
+    Responsive
+============================ */
+
+@media (max-width: 1200px){
+    .masthead-profile-bg{
+        width: 85%;
+      }
+}
+
+@media (max-width: 1000px){
+    .masthead-profile-bg{
+         margin: 10% auto;
+    }
+
+    .masthead-profile-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .masthead__image{
+        margin: 0 auto;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:991px){
+    .col--project{
+        flex: 0 0 50%;
+    }
+}
+
+@media (max-width: 960px){
+    .masthead{
+        padding: 0;
+        height: 110vh;
+    }
+}
+
+@media (max-width: 823px){
+    .masthead{
+        height: 146vh;
+    }
+}
+
+@media (max-width: 812px){
+    .masthead{
+        height: 166vh;
+    }
+}
+
+@media (max-width: 800px){
+    .masthead{
+        height: 46vh;
+    }
+}
+
+@media (max-width: 768px){
+    .masthead{
+        height: 60vh;
+    }
+}
+
+@media (max-width:767px){
+    .row{
+        flex-direction: column;
+    }
+
+    .row--projects{
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 736px){
+    .masthead{
+        height: 150vh;
+    }
+
+    .col-skills{
+        padding-top: 5rem;
+    }
+}
+
+@media (max-width: 720px){
+    .masthead{
+        height: 113vh;
+    }
+}
+
+@media (max-width: 667px){
+    .masthead{
+        height: 170vh;
+    }
+}
+
+@media (max-width: 600px){
+    .masthead{
+        height: 60vh;
+    }
+
+    .about{
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 600px) and (min-height: 260px){
+    .masthead{
+        height: 220vh;
+    }
+}
+
+@media (max-width:575px){
+    .row--projects{
+        flex-direction: column;
+    }
+
+    .col--project{
+        flex: 0 0 100%;
+    }
+
+    .skills-content--project{
+        margin: 1.7rem 0;
+    }
+
+    .project-card{
+        width: 32rem;
+    }
+}
+
+@media (max-width: 568px){
+    .masthead{
+        height: 190vh;
+    }
+}
+
+@media (max-width: 540px){
+    .masthead{
+        height: 82vh;
+    }
+}
+
+@media (max-width: 533px){
+    .masthead{
+        height: 190vh;
+    }
+}
+
+@media (max-width: 480px){
+    .masthead{
+        height: 70vh;
+    }
+
+    .project-card{
+        width: 100%;
+    }
+
+    .skills-content--project{
+       margin: 3rem 0;
+    }
+}
+
+@media (min-width: 480px) and (min-height: 320px){
+    .masthead{
+        height: 182vh;
+    }
+}
+
+@media (max-width:479px){
+    .row{
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+    }
+}
+
+@media (max-width: 475px){
+    .footer{
+        padding: 8% 3%;
+    }
+
+    .masthead__link{
+        font-size: 1em;
+    }
+
+    .masthead__link--margin{
+        margin-left: 12px;
+    }
+
+    .footer__copy{
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 414px){
+    .container{
+        padding-top: 0;
+    }
+
+    .masthead{
+         height: 70vh;
+    }
+
+    .masthead-profile-bg{
+        margin: 18% auto;
+        padding: 3.5rem;
+    }
+
+    .masthead__image{
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .masthead-items{
+        margin: 0;
+    }
+}
+
+@media (max-width: 384px){
+    .masthead{
+        height: 75vh;
+    }
+}
+
+@media (max-width: 375px){
+    .masthead{
+        height: 74vh;
+    }
+}
+
+@media (min-width: 375px) and (min-height: 812px){
+    .masthead{
+        height: 60vh;
+    }
+}
+
+@media (max-width: 360px){
+    .masthead{
+        height: 80vh;
+    }
+
+    .masthead-profile-bg{
+        margin: 17% auto;
+        padding: 3.2rem;
+    }
+}
+
+@media (max-width:335px){
+    .skills-content--project{
+       margin: 1.3rem 0;
+    }
+}
+
+@media (max-width: 320px){
+    .col{
+        padding-top: 14rem;
+    }
+
+    .masthead{
+        height: 86vh;
+    }
+
+    .masthead-profile-bg{
+        margin: 12% auto;
+        padding: 3rem;
+    }
+
+    .col-skills{
+        padding-top: 5rem;
+    }
+
+    .col--project{
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 320px) and (min-height: 480px){
+    .masthead{
+         height: 84vh;
+    }
+}
+
+
+        </style>
+    </head>
+
+    <body class="body">
+ <footer class="My_Projects"><a class="My_Projects__link" href="">My Projects</a></footer>
+       <button type="button" name="button" class="iot"><a href="/myiot.html" class="myiot">My ioT</a></button>
+        <section id="masthead" class="masthead">
+
+            <div class="masthead-container">
+                <div class="masthead-profile-bg">
+                    <div class="masthead-profile-content">
+                        <img
+                            src="https://i.ibb.co/C5mvMp4/avatar.jpg"
+                            alt="Customer image"
+                            class="masthead__image"
+                          />
+                        <div class="masthead-profile">
+                            <h1 class="masthead__heading">Hi! I'm Arvinderjeet Singh, Frontend Developer.
+                            </h1>
+                            <br/>
+                            <ul class="masthead-items">
+                                <a href="https://twitter.com/ARVINDERJEETS13?s=08" target="" class="masthead__link">Twitter</a>
+
+                                <a href="https://instagram.com/arvinder.jeet_singh?igshid=1xc1snhu095jj" target="" class="masthead__link masthead__link--margin">Instagram
+                                </a>
+
+                             <a href=" https://github.com/Arvinderjeet" target="_blank" class="masthead__link masthead__link--margin">GitHub</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="masthead-wave">
+            <div style="height: 16vh; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #000;"></path></svg></div>
+        </div>
+
+    <!-- About -->
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="title">
+                            <h2 class="title__h2">About</h2>
+                        </div>
+                        <div class="about-timeline">
+                            <div class="timeline-card">
+                                <div class="timeline-card-content">
+                                    <p>&middot; I am a freelance front-end developer from INDIA creating amazing websites.</p>
+                                </div>
+
+                                <div class="timeline-card-content timeline-card-content--p">
+                                    <p>&middot; I make an effort every day to learn new technologies and apply them in my personal projects. My goal is responsive web design.</p>
+                                </div>
+
+                                <div class="timeline-card-content timeline-card-content--p">
+                                    <p>&middot; I am currently studying....</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+    <!-- Skills -->
+
+                    <div class="col col-skills">
+                        <div class="title">
+                            <h2 class="title__h2">Skills</h2>
+                        </div>
+                        <div class="about-timeline">
+                            <div class="skills-title">
+                                <h3 class="title__h3">Languages</h3>
+                            </div>
+                            <div class="skills-content">
+                                <div class="skill">HTML</div>
+                                <div class="skill">CSS</div>
+                                <div class="skill">JavaScript</div>
+                            </div>
+                            <div class="skills-title skills-title--tech">
+                                <h3 class="title__h3">My Tools</h3>
+                            </div>
+                            <div class="skills-content">
+                                <div class="skill">Git & GitHub</div>
+                                <div class="skill">VS Code</div>
+                                <div class="skill">Chrome DevTools</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Projects -->
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+                        <h2 class="title__h2">Projects</h2>
+                    </div>
+                </div>
+                <div class="row row--projects">
+                    <div class="col col--project">
+                        <div class="project-card">
+                            <div class="project-card-content">
+                                <div class="project-card-cover">
+                                    <a href="https://github.com/Arvinderjeet" target="_blank" class="fab fa-github fa-2x project__icon"></a>
+
+                                    <a href="https://github.com/Arvinderjeet" target="_blank" class="fas fa-globe fa-2x project__icon"></a>
+                                </div>
+                                <h3 class="title__h3 title__h3--project">Responsive Website</h3>
+                                <div class="project-card-p">For this website I was inspired by the some great websites, using css and html. It was a great challenge for design and development.
+                                </div>
+                            </div>
+                            <div class="skills-content skills-content--project">
+                                <div class="skill skill--project">HTML</div>
+                                <div class="skill skill--project">CSS</div>
+                                <div class="skill skill--project">GitHub Pages</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col--project">
+                        <div class="project-card">
+                            <div class="project-card-content">
+                                <div class="project-card-cover">
+                                    <a target="_blank" class="fab fa-github fa-2x project__icon" href="https://github.com/Arvinderjeet"></a>
+
+                                    <a target="_blank" class="fas fa-globe fa-2x project__icon" href="https://github.com/Arvinderjeet"></a>
+                                </div>
+                                <h3 class="title__h3 title__h3--project">Personal Website</h3>
+                                <div class="project-card-p">I'M A BELIEVER
+                                </div>
+                            </div>
+                            <div class="skills-content skills-content--project">
+                                <div class="skill skill--project">HTML</div>
+                                <div class="skill skill--project">CSS</div>
+                                <div class="skill skill--project">GitHub Pages</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--  -->
+    <!-- Footer -->
+
+        <footer class="footer">
+            <div class="footer-content">
+                <ul class="masthead-items">
+                    <a href="https://twitter.com/ARVINDERJEETS13?s=08" target="" class="masthead__link">Twitter</a>
+
+                    <a href="https://instagram.com/arvinder.jeet_singh?igshid=1xc1snhu095jj" target="_blank" class="masthead__link masthead__link--margin">Instagram</a>
+
+                    <a href="https://github.com/Arvinderjeet" target="_blank" class="masthead__link masthead__link--margin">GitHub</a>
+                </ul>
+                <p class="footer__copy">
+                    &copy; 2021 Aj Singh - <a href="mailto:arvinderjeet4@gmail.com" target="_blank" class="project__icon project__icon--link">Connect</a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
